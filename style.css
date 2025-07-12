@@ -111,3 +111,43 @@ header {
   border-radius: 50%;
   margin-right: 10px;
 }
+.feature img {
+  max-width: 100%;
+  margin: 20px;
+}
+.contact {
+  background-color: #f0f3ff;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.contact .left h2 {
+  font-size: 2rem;
+}
+.contact .right form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+.contact input, .contact textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+footer {
+  text-align: center;
+  padding: 40px 20px;
+}
+.footer-logo {
+  width: 100px;
+}
+.footer-links {
+  margin-top: 10px;
+}
+.footer-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #666;
+}
