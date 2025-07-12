@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -10,7 +11,7 @@ body {
   line-height: 1.6;
 }
 header {
-  background: url('Assets/Hero-bg.png') no-repeat center top;
+  background: url('web-flow-A01.png') no-repeat center top;
   background-size: cover;
   text-align: center;
   padding: 60px 20px 120px;
@@ -47,17 +48,20 @@ header {
   cursor: pointer;
   margin-top: 20px;
 }
+section {
+  width: 1140px;
+  margin: 40px auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
 .preview {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 60px 20px;
   gap: 40px;
+  min-height: 300px;
 }
-.preview .text {
-  flex: 1;
-}
-.preview .image {
+.preview .text, .preview .image {
   flex: 1;
 }
 .preview img {
@@ -67,9 +71,9 @@ header {
   background-color: #e9ecff;
   padding: 40px 20px;
   text-align: center;
-}
-.stats h2 {
-  margin-bottom: 20px;
+  border: 1px solid #d0d4ff;
+  border-radius: 12px;
+  min-height: 250px;
 }
 .stat-boxes {
   display: flex;
@@ -81,8 +85,8 @@ header {
   color: #3b3eff;
 }
 .testimonials {
-  padding: 60px 20px;
   text-align: center;
+  min-height: 300px;
 }
 .testimonial-cards {
   display: flex;
@@ -111,16 +115,31 @@ header {
   border-radius: 50%;
   margin-right: 10px;
 }
-.feature img {
+.feature {
+  background: #fff;
+  text-align: center;
+  min-height: 300px;
+}
+.feature-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.feature .cta-btn {
+  margin-bottom: 20px;
+}
+.feature-img {
+  border-radius: 20px;
   max-width: 100%;
-  margin: 20px;
+  height: auto;
 }
 .contact {
   background-color: #f0f3ff;
-  padding: 60px 20px;
   display: flex;
   justify-content: space-between;
   gap: 40px;
+  min-height: 300px;
 }
 .contact .left h2 {
   font-size: 2rem;
